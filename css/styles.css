@@ -1,0 +1,165 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #999;
+  border-radius: 0;
+  border: 3px solid black;
+}
+
+.navbar-brand {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: sans-serif;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list li {
+  border: 0px;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #999;
+    border: 1px solid #ddd;
+}
+
+.navbar-default .navbar-toggle:focus  {
+    background-color: #999;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -65px;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #999;
+    color: #ddd;
+    border: 1px solid #ddd;
+}
+
+/*.navbar-default .navbar-toggle:hover {
+    background-color: #999;
+    border: 1px solid #ddd;
+}*/
+
+.navbar-nav {
+    margin: 0px -15px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.text-center {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text-center span {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-top: 35px;
+  position: relative;
+  overflow: hidden;
+}
+
+#chicken-tile {
+  background-color: #999;
+}
+#beef-tile {
+  background-color: #999;
+}
+#sushi-tile {
+  background-color: #999;
+}
+
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  color: #000;
+  padding-top: 5px;
+}
+
+/* END HOME PAGE */
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+  /* Home Page */
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 1px solid black;
+}
+
+
+.navbar-collapse {
+    border-top: 1px solid black;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+}
+
+
+.navbar-nav>li>a {
+    padding: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+#nav-list li {
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#nav-list li a, #nav-list li a:focus, #nav-list li a:hover {
+    color: black;
+    text-decoration: none;
+}
+  /* End Header */
+
+}
